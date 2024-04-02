@@ -1,0 +1,58 @@
+/* FlowerShop.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.shop-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flower-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.flower-image {
+  max-width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.flower-details {
+  flex-grow: 1;
+}
+
+.flower-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.flower-price {
+  font-size: 16px;
+  color: #007bff;
+}
+
+.flower-description {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.add-to-cart-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
